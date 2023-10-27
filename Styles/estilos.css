@@ -22,3 +22,17 @@ body{
 .title span{
     font-size: 2rem;
 }
+.contenedor{
+    width: 120rem;
+    /* margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto; */
+    margin: 0rem auto 0rem auto;
+}
+.navegacion_default a{
+    background-color: var(--negro_defult);
+}
+.navegacion_2{
+    background-color: var(--azul_defult);
+}
