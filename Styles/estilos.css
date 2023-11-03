@@ -3,36 +3,44 @@
     --blanco_default: #ffffff;
     --amarillo_defult: #ffc107;
     --azul_defult: #0097a7;
-    --gris_defult: #757575;
-    --color_XD: #14E340 ;
+     --gris_defult: #757575;
+    --color_XD: #14E340;
 }
 
-html{
+html {
     font-size: 62.5%;
 }
-body{
+
+body {
     font-size: 16px;
     font-family: 'Krub', sans-serif;
+    /* background-color: var(--gris_defult); */
 }
-.title{
+
+.title {
     text-align: center;
     font-size: 3rem;
-    
 }
-.title span{
+
+.title span {
     font-size: 2rem;
 }
-.contenedor{
+
+.contenedor_nav {
     width: 120rem;
-    /* margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: auto;
-    margin-right: auto; */
-    margin: 0rem auto 0rem auto;
+    margin: 0 auto;
 }
-.navegacion_default a{
-    background-color: var(--negro_defult);
-}
-.navegacion_2{
+.color_navegador{
     background-color: var(--azul_defult);
+}
+
+.navegacion_principal {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.navegacion_principal a{
+    color: var(--blanco_default);
+    text-decoration: none;
+    font-size: 2rem;
 }
