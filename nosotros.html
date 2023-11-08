@@ -5,25 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freelancer</title>
+    <link rel="preload" href="styles/normalize.css" as="style">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preload" href="styles/estilos.css" as="style">
     <link rel="stylesheet" href="styles/estilos.css" type="text/css">
 </head>
+
 <body>
-
     <header>
-        <h1>Oscar Mendoza Freelancer</h1>
+        <h1 class="title">Oscar Mendoza <span>Freelancer - Nosotros</span></h1>
     </header>
-
-    <nav>
-        <a href="/nosotros.html">Inicio</a>
-        <a href="#">Sobre mi</a>
-        <a href="#"> Clientes</a>
-        <a href="#">Contacto</a>
-        <a href="#">Contacto</a>
-    </nav>
-    <!-- <img src="IMG/hero.jpg" alt="Imagen no encontrada"> -->
+    <div class="color_navegador">
+        <nav class="navegacion_principal contenedor_nav">
+            <a href="#">Inicio</a>
+            <a href="nosotros.html">Sobre mi</a>
+            <a href="#"> Clientes</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </div>
     <section>
-        <h2>Diseño y Desarrollo Web Freelancer</h2>
+        <h2 class="title">Diseño y Desarrollo Web <span>Freelancer</span></h2>
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-google-maps" width="88"
             height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFC107" fill="none" stroke-linecap="round"
             stroke-linejoin="round">
@@ -104,7 +106,7 @@
 
     <section>
         <h2>Contacto</h2>
-        <form action="">
+        <form>
             <fieldset>
                 <legend>Contactanos Llenando todos los campos</legend>
                 <div>
@@ -116,7 +118,7 @@
                     <label>Telefono</label>
                     <input type="tel" placeholder="Telefono">
                 </div>
-  
+
                 <div>
                     <label>Email</label>
                     <input type="email" placeholder="Email">
@@ -138,6 +140,9 @@
     <footer>
         <p>Todos los derechos reservados. Oscar Luis Mendoza Ariza</p>
     </footer>
+
+
+    <p class="title">Muchas gracias por visitar la pagina</p>
 </body>
 
 </html>
