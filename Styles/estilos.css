@@ -28,8 +28,15 @@ body {
     color: var();
 }
 
+@media(max-width: 700px) {
+    .title {
+        background-color: var(--gris_defult);
+        text-align: start;
+    }
+}
+
 .contenedor_nav {
-    width: 120rem;
+    max-width: 120rem;
     margin: 0 auto;
 }
 
@@ -40,6 +47,12 @@ body {
 .navegacion_principal {
     display: flex;
     justify-content: space-between;
+}
+
+@media(max-width: 500px) {
+    .navegacion_principal {
+        flex-direction: column;
+    }
 }
 
 .navegacion_principal a{
