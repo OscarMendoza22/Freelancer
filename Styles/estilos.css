@@ -15,9 +15,7 @@ html {
     box-sizing: border-box; /* Utilidad de Box Model */
 }
 
-*,
-*:before,
-*:after {
+*,*:before,*:after {
     box-sizing: inherit;
 }
 
@@ -152,6 +150,16 @@ h3 {
     border-radius: 1rem;
 }
 
-.servicios{
-    
+/*Apartados de Servicios*/
+@media(min-width:748px) {
+    .servicios{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
+/* Simplificar las direcciones del GRID ROW-COLUMNS */
+/* grid: 200px 800px /300px 300px 300px; */ 
+
+/* Maneras de escribir las direcciones */
+/* grid-template-columns: 33.3% 33.3% 33.3%; */
+/* grid-template-columns: 1fr 1fr 1fr; */
