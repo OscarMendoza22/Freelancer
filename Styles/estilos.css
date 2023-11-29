@@ -53,6 +53,10 @@ footer {
     }
 }
 
+.boton:hover{
+    cursor: pointer;
+}
+
 /* Tipografias */
 h1 {
     font-size: 3.8rem;
@@ -154,6 +158,7 @@ h3 {
     /* text-align: center; */
     border-radius: 1rem;
     padding-bottom: 20rem;
+    border: none;
 }
 
 /*Apartados de Servicios*/
@@ -205,7 +210,7 @@ h3 {
 .formulario {
     background-color: var(--gris_defult);
     /* width: 60rem; */
-    width: min(60rem ,100%);
+    width: min(60rem, 100%);
     margin: 0 auto;
     border-radius: 1rem;
     padding: 2rem;
@@ -215,7 +220,7 @@ h3 {
     border: none;
 }
 
-.formulario legend{
+.formulario legend {
     text-align: center;
     color: var(--amarillo_defult);
     text-transform: uppercase;
@@ -230,18 +235,21 @@ h3 {
     align-items: center; */
 }
 
-.posicion_estilos{
+.posicion_estilos {
     margin-bottom: 1rem;
 
 }
-.posicion_estilos label{
+
+.posicion_estilos label {
     color: var(--blanco_default);
     font-weight: 700;
     display: block;
     margin-bottom: 1.5rem;
 }
 
-.posicion_estilos input[type="text"], .posicion_estilos input[type="email"]{
-    background-color: #14E340;
-    border-radius: 1.5rem ;
+.Input-styles {
+    width: 100%;
+    padding: 1.5rem;
+    border: none;
+    border-radius: .5rem;
 }
