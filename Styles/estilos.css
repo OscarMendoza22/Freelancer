@@ -252,7 +252,6 @@ h3 {
     display: grid;
     grid-template-columns: 50% 50%;
     column-gap: 1rem;
-    row-gap: 2rem;
     grid-template-rows: auto auto 20rem;
 }
 .posicion_estilos:nth-child(3){
@@ -264,7 +263,6 @@ h3 {
 
 .posicion_estilos {
     margin-bottom: 1rem;
-
 }
 
 .posicion_estilos label {
@@ -281,6 +279,6 @@ h3 {
     border-radius: 0.5rem;
 }
 
-.posicion_estilos textarea {
+.posicion_estilos textarea{
     height: 20rem;
 }
