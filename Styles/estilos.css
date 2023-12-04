@@ -68,10 +68,6 @@ h2 {
     text-align: center;
 }
 
-h3 {
-    font-size: 1.8rem;
-    text-align: center;
-}
 
 .contenedor_nav {
     max-width: 120rem;
@@ -114,7 +110,7 @@ h3 {
     background-color: var(--azul_defult);
 }
 
-@media(min-width: 535px) {
+@media(min-width: 608px) {
     .navegacion_principal {
         flex-direction: row;
         justify-content: space-around;
