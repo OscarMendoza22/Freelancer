@@ -273,11 +273,13 @@ h2 {
     font-weight: bold;
     display: block;
     margin-bottom: .5rem;
-    /* 
-    OTRA MANERA DE HACERLO UN POCO MAS ESPECIFICO
+}
+
+/* OTRA MANERA DE HACERLO UN POCO MAS ESPECIFICO */
+@media (max-width: 768px) {
     .posicion_estilos input[type="text"]{
         background-color: var(--color_XD);
-    } */
+    }
 }
 
 .posicion_estilos textarea{
