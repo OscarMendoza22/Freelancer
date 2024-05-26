@@ -13,7 +13,7 @@
 html {
     font-size: 62.5%;
     box-sizing: border-box; /* Utilidad de Box Model  con las clasees de (*)*/
-    scroll-snap-type: y mandatory;
+    /* scroll-snap-type: y mandatory; */
 }
 
 *,
@@ -175,13 +175,13 @@ h2 {
     border-radius: 1rem;
     border: none;
 }
-
+/* 
 .servicios, 
 .navegacion_principal,
 .formulario {
     scroll-snap-align: center;
     scroll-snap-stop: always;
- } 
+ }  */
 
 /*Apartados de Servicios*/
 
@@ -276,11 +276,11 @@ h2 {
 }
 
 /* OTRA MANERA DE HACERLO UN POCO MAS ESPECIFICO */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .posicion_estilos input[type="text"]{
         background-color: var(--color_XD);
     }
-}
+} */
 
 .posicion_estilos textarea{
     height: 20rem; 
